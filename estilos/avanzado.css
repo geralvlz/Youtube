@@ -1,0 +1,131 @@
+/*
+codigos de colores
+RGB ( Red, Green, Blue)
+RGBA (Red, Green, Blue, Trnasparencia)
+Hexadecimal
+
+*/
+
+
+
+p{
+   /*
+    Codigo RGB para morado
+    color: rgb(127, 127, 247); 
+
+    Codigo RGBA para transparente
+    color: rgba(127, 127, 247, 0.5);
+
+    CODIGO HEXADECIMAL PARA LAVANDA
+    
+    */
+  color: #E6E6FA;
+}
+
+button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 35px;
+}
+
+
+/*
+        Pseudoclases
+        (Manejan los estilos de un estado de un elemento HTML,
+        ejemplo, al estar en un elemento o posicionar el mouse encima de un elemento )
+*/
+
+    
+   
+    button:hover {
+
+    background-color: green;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    }
+
+  
+
+    input:focus {
+      outline: none;
+      border: 1px solid red;
+      border-radius: 35px;
+    }
+
+/*
+      Pseudoelementos
+      Controlan partes especificas de un elemento HTML
+      Ejemplo: la primera letra, la primera linea, antes, despues de un parrafo o cualquier elemento HML
+*/
+
+p::before {
+
+  content: "before";
+
+}
+
+p::after {
+
+  content: "after";
+
+}
+
+p::first-letter {
+
+  color: red;
+
+}
+
+p::first-line{
+
+  color: green;
+}
+
+/*
+    Tipografias personalizadas 
+*/
+
+p{
+
+  font-family: 'Rubik Storm', cursive;
+}
+
+/*
+    Transiciones
+     hacer que los cambios ocurran en un tiempo determinado
+
+*/
+
+button{
+  height: 50px;
+  width: 50px;
+  transition: width 2s, height 2s, background-color 2s;
+
+
+}
+
+/*
+    Animaciones
+
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: moverse;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moverse {
+
+  0% {background-color: red ; left: 0; top: 0; width: 10px;}
+  25% {background-color: yellow ; left: 200px; top: 0;}
+  50% {background-color: green ; left: 200px; top: 200px; width: 200px;}
+  75% {background-color: blue ; left: 0; top: 200px;}
+  100% {background-color: red ; left: 0; top: 0; width: 10px;}
+}
