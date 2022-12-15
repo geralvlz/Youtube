@@ -1,0 +1,204 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+    grid-template-columns: 5% 95% ;
+	
+}
+
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 10px 5px 10px;
+}
+
+aside {
+	margin:25px 10px 10px 10px ;
+	display: flex;
+	flex-direction: column;
+	gap:  10px;
+	text-align: center;
+	
+}
+
+
+.Barra{
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+aside div i {
+	font-size: 20px;
+}
+
+
+.iconos {
+	display: flex;
+	gap: 10px;
+	
+}
+
+.video-container img {
+	border-radius: 15px;
+}
+
+.video-container img:hover {
+	width: 320px;
+	height: 220px;
+	transition-delay: 1s;
+	
+}
+
+
+
+.botones {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 25px;
+	
+	
+}
+
+.boton_categorias:first-child {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.boton_categorias{
+	border: 1px solid white;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 15px;
+}
+
+.boton_categorias:hover{
+	background-color: darkgray;
+}
+
+.input {
+	margin: 15px;
+	display: flex;
+	
+	
+}
+
+.buscador {
+	width: 500px;
+	height: 30px;
+	border-radius: 25px 0 0 25px;
+	border: 1px solid gray;
+	
+}
+
+.Microfono {
+	height: 35px;
+	width: 35px;
+	border-radius: 50px;
+	background-color: F8F8F8;
+	border: none;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.Lupa {
+	
+    height: 34px;
+	width: 50px;
+	border-radius: 0 50px 50px 0;
+	border: 1px solid gray;
+	background-color: F8F8F8;
+	font-size: 15px;
+	
+	
+	
+}
+
+.iconos p i{
+	font-size: 20px;
+}
+
+
+.iconos2 {
+	height: 50px;
+}
+
+aside p {
+	font-size: 13px;
+}
+
+.video-container {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	margin: 20px;
+	margin-left: 50px;
+	
+
+}
+
+iframe{
+	border-radius: 10px;
+}
+
+
+
+
+
+.description-container {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+
+
+.description-container2 {
+       display: grid;
+       grid-template-columns: 12% 88%;
+}
+
+
+.description-container3 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+.description-container4 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+
+.description-container5 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+
+.description-container6 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+.description-container7 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+.description-container8 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+}
+
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	
+}
+
+.Negrita {
+	font-weight: bold;
+}
+
